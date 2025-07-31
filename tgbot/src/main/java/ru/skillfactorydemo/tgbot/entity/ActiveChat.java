@@ -1,8 +1,7 @@
 package ru.skillfactorydemo.tgbot.entity;
 
+import jakarta.persistence.*;
 import lombok.Data;
-
-import javax.persistence.*;
 
 @Data
 @Entity
