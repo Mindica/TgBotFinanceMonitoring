@@ -1,7 +1,8 @@
 package ru.skillfactorydemo.tgbot.entity;
 
-import jakarta.persistence.*;
 import lombok.Data;
+
+import javax.persistence.*;
 
 @Data
 @Entity
@@ -9,7 +10,7 @@ import lombok.Data;
 public class ActiveChat {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Long id;
 
     @Column(name = "CHAT_ID")
