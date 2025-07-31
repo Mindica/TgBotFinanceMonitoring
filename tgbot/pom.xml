@@ -125,11 +125,7 @@
 			<version>2.5.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>ru.skillfactorydemo</groupId>
-			<artifactId>tgbot</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>

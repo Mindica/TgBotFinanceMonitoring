@@ -1,0 +1,7 @@
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/tgbot-replica
+spring.datasource.username=postgres
+spring.datasource.password=LeoKero_000+
+spring.jpa.hibernate.ddl-auto=create
+spring.datasource.initialization-mode=always
+spring.datasource.schema=classpath:data.sql
